@@ -213,16 +213,10 @@ function Navbar({ theme, setTheme }) {
             {item.label}
           </a>
         ))}
-        <a className="nav-cta mobile-only" href={`mailto:${profile.email}`}>
-          Let's talk <ArrowRight size={16} />
-        </a>
       </nav>
 
       <div className="nav-actions">
         <ThemeToggle theme={theme} setTheme={setTheme} />
-        <a className="nav-cta desktop-only" href={`mailto:${profile.email}`}>
-          Let's talk <ArrowRight size={16} />
-        </a>
         <button
           className="menu-button"
           type="button"
